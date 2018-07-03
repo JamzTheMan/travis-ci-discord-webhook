@@ -1,6 +1,4 @@
 #!/bin/bash
-PS4='$LINENO: '
-set -x
 
 if [ -z "$2" ]; then
   echo -e "WARNING!!\nYou need to pass the WEBHOOK_URL environment variable as the second argument to this script.\nFor details & guide, visit: https://github.com/k3rn31p4nic/travis-ci-discord-webhook" && exit
